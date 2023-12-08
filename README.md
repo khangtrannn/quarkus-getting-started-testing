@@ -1,5 +1,7 @@
 ### Notes
 - `ArC` comes as a dependency of `quarkus-resteasy-reactive` so you already have it handy
+- `@Mock` is built-in stereotype declares `@Alternative`, `@Priority(1)`, `@Dependent`
+- `@InjeckMock` works on normal scope CDI beans (@ApplicationScoped, @RequestScoped, etc.)
 
 ### Fetures
 - Transactional test with Stereotype
