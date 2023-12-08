@@ -7,7 +7,18 @@
 - Transactional test with Stereotype
 - Test Profile
 - Runing specific tests profile with tags
+- QuarkusTestResourceLifecycleManager 
 - QuarkusTest*Callback
+- WireMock
+```
+<dependency>
+  <groupId>com.github.tomakehurst</groupId>
+  <artifactId>wiremock-jre8</artifactId>
+  <version>2.28.0</version>
+  <scope>test</scope>
+</dependency>
+```
+
 
 
 ### Reference

@@ -10,7 +10,7 @@ import io.quarkus.test.junit.QuarkusTest;
 @QuarkusTest
 public class RegularCountryResourceTest {
   @Test
-  public void testGreece() {
+  public void testVietNam() {
     given()
       .when().get("/country/name/vietnam")
       .then()

@@ -1,14 +1,11 @@
 package org.acme;
 
-import io.quarkus.test.InjectMock;
-import io.quarkus.test.junit.QuarkusTest;
-
-import org.eclipse.microprofile.rest.client.inject.RestClient;
-import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
-
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.is;
+
+import org.junit.jupiter.api.Test;
+
+import io.quarkus.test.junit.QuarkusTest;
 
 @QuarkusTest
 class GreetingResourceTest {
